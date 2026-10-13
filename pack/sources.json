@@ -1,0 +1,1128 @@
+{
+  "about": "Where each of these sounds came from. All of them are CC0 1.0: in the public domain, free to use in any way, in any song, without credit. Made by phazite_soundkit (tools/soundkit in Phazite's repository) from recipes.json; see README.txt.",
+  "pack": "Phazite Sounds",
+  "version": 1,
+  "date": "2026-10-13",
+  "sounds": [
+    {
+      "file": "Drums/Kicks/Kick Acoustic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Virtuosity Drums: kick/mid_kick_snoff_vl4_rr1.flac",
+          "author": "Versilian Studios",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/kick/mid_kick_snoff_vl4_rr1.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "44cbf44b9d6757d37f37f47d98688180f6f46bafe5cc38fa617f12268d5f4de1"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 1.2 s, faded out over 400 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Kicks/Kick Acoustic Big.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Big Rusty Drums: kick_24/kick/kick/k_vl12_rr1.flac (close microphone)",
+          "author": "Karoryfer Samples",
+          "url": "https://github.com/sfzinstruments/karoryfer.big-rusty-drums/blob/f07ce00df34a46b6b08375be56fe116cf15782bc/Samples/kick_24/kick/kick/k_vl12_rr1.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "fb9e06f70661d4e9c64c557d13ab113e76c5d77f99376b3d468d3d86836db010"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 1.2 s, faded out over 300 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Kicks/Kick Electronic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "FreePats Synthesizer Percussion (2022-07-18), made with the Yoshimi and Geonkick synthesizers: Kick04.flac",
+          "author": "Roberto (FreePats)",
+          "url": "https://github.com/freepats/synthesizer-percussion/blob/39bbabce8e0e10aa259d5d94fca329f668733185/samples/Kick04.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "README.md at that commit: \"Published under the terms of Creative Commons CC0 public domain dedication\"",
+          "sha256": "b034f40d172ba5b51297e42957a88c0d09b7df5e6214afcb33fe7ac67b2b1725"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Kicks/Kick Electronic Hard.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "FreePats Synthesizer Percussion (2022-07-18), made with the Yoshimi and Geonkick synthesizers: Kick06.flac",
+          "author": "Roberto (FreePats)",
+          "url": "https://github.com/freepats/synthesizer-percussion/blob/39bbabce8e0e10aa259d5d94fca329f668733185/samples/Kick06.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "README.md at that commit: \"Published under the terms of Creative Commons CC0 public domain dedication\"",
+          "sha256": "515b199be22a5d8c74e6b61f8e1608b29dfa583a3866429c429e092166fce18e"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Kicks/Kick Soft.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Sonic Pi's samples, from freesound.org: bd_sone.flac (https://freesound.org/people/soneproject/sounds/223090/, a kick made with ZynAddSubFX)",
+          "author": "see the Freesound page in the title",
+          "url": "https://github.com/sonic-pi-net/sonic-pi/blob/f4c680462539dfc80053caba65dff8200b93e7f9/etc/samples/bd_sone.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE.md at that commit: \"All the bundled samples are individually licensed under a CC0 1.0 Universal Public Domain Dedication\"; etc/samples/README.md names each sample's Freesound page",
+          "sha256": "986a685ba12e375163cee024a01363994a9db4b87afc147120e5813d2892bbc0"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Kicks/Kick Punchy.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (kick: 160 to 52 Hz, pitch 35 ms, decay 180 ms, click 0.35, drive 2), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Kicks/Kick Deep.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (kick: 120 to 42 Hz, pitch 50 ms, decay 350 ms, click 0.15, drive 1.5), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Kicks/Kick Tight.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (kick: 220 to 60 Hz, pitch 20 ms, decay 90 ms, click 0.5, drive 3), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Snares/Snare Acoustic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Virtuosity Drums: snare/mid_snare_center_vl30.flac",
+          "author": "Versilian Studios",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_center_vl30.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "3b26473469dfdbf7de685ede8eaea791fa28d6bccb745ad72d40e20f62913e5e"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Snares/Snare Rimshot.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Virtuosity Drums: snare/mid_snare_rimshot_vl8.flac",
+          "author": "Versilian Studios",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_rimshot_vl8.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "849e6959bc6e1fd40eb9af547998380c922f2118434acf25a331e62627ecb721"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 1.5 s, faded out over 400 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Snares/Snare Tight.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_HitSN_v7_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%201/Snare2_HitSN_v7_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "e63d9ebb2d1f85456d7554448b52330031051bc45db36f5fe08ef5f5149421e6"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 1.3 s, faded out over 400 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Snares/Snare Crack.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Membranophones/Struck Membranophones/Snare Drum, Modern 3/Snare4_rimshot_v4_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%203/Snare4_rimshot_v4_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "dbe6e4758a967a7b93cd7a00f6a55a7ffe182fac38a6666a74fdd880c98b9a97"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 1.3 s, faded out over 400 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Snares/Snare Electronic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "FreePats Synthesizer Percussion (2022-07-18), made with the Yoshimi and Geonkick synthesizers: Snare09.flac",
+          "author": "Roberto (FreePats)",
+          "url": "https://github.com/freepats/synthesizer-percussion/blob/39bbabce8e0e10aa259d5d94fca329f668733185/samples/Snare09.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "README.md at that commit: \"Published under the terms of Creative Commons CC0 public domain dedication\"",
+          "sha256": "569a80d3f996085384762b1c1123d1543b4a10e3b3a18e1101d4b3229f193a2c"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Snares/Snare Analog.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (snare: sines at 185 and 330 Hz, and noise high-passed at 800 Hz), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Snares/Rim Side Stick.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Virtuosity Drums: snare/mid_snare_crossstick_vl12.flac",
+          "author": "Versilian Studios",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_crossstick_vl12.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "2b8d7b1c38afe98d339cb3a82a138e1286e5d5b95ac3a71e4a8d1a8c0c2cda14"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 0.8 s, faded out over 300 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Claps/Clap Hand.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "body_percussion: handclap_vl2_rr1.wav",
+          "author": "sfzinstruments",
+          "url": "https://github.com/sfzinstruments/body_percussion/blob/4ac9d8966679c648b62fa10a188179e186b97f24/Samples/body/handclap_vl2_rr1.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; readme.txt: \"CC 0 license.\"",
+          "sha256": "7dd4e67b8061cebffd4d606979c7cac6bf4fcb79ab8f1e0d5cd7e0e31792bbf4"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Claps/Clap Studio.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Idiophones/Struck Idiophones/Claps/Clap_rr1.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Claps/Clap_rr1.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "4c9f3fe4a34733b9be6ed9ce5e5aad48b19c1029ae9c6dd1b96294a847539e3f"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Claps/Clap Electronic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "FreePats Synthesizer Percussion (2022-07-18), made with the Yoshimi and Geonkick synthesizers: Clap01.flac",
+          "author": "Roberto (FreePats)",
+          "url": "https://github.com/freepats/synthesizer-percussion/blob/39bbabce8e0e10aa259d5d94fca329f668733185/samples/Clap01.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "README.md at that commit: \"Published under the terms of Creative Commons CC0 public domain dedication\"",
+          "sha256": "813df4de97a5f956a8dbaacbbac6ce0847e74eabc9cfcae4792894514fadf697"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Claps/Clap Analog.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (clap: noise band-passed at 1.1 kHz, struck four times 10 ms apart, then a 130 ms tail), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Claps/Clap Finger.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "body_percussion: fingerclap_vl2_rr1.wav",
+          "author": "sfzinstruments",
+          "url": "https://github.com/sfzinstruments/body_percussion/blob/4ac9d8966679c648b62fa10a188179e186b97f24/Samples/body/fingerclap_vl2_rr1.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; readme.txt: \"CC 0 license.\"",
+          "sha256": "911cbfa9fd643d3af7b4cd65724202799689d6d748d5eccc0cef2193db85d4e7"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Claps/Snap.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "body_percussion: snap_r_rr1.wav",
+          "author": "sfzinstruments",
+          "url": "https://github.com/sfzinstruments/body_percussion/blob/4ac9d8966679c648b62fa10a188179e186b97f24/Samples/body/snap_r_rr1.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; readme.txt: \"CC 0 license.\"",
+          "sha256": "8ec0819c920c152e950a7ff097b8632b3d7e518d475c4f6b99d7d8a5a7a4cb1f"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Hats/Hat Closed Acoustic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Virtuosity Drums: hh/mid_hh_closed_vl3_rr1.flac",
+          "author": "Versilian Studios",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_closed_vl3_rr1.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "5a747638b0acb5dc42f2e68c61b29085a489af524bdd5da180cb1de542e1bad1"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Hats/Hat Pedal.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Virtuosity Drums: hh/mid_hh_pedal_vl2_rr1.flac",
+          "author": "Versilian Studios",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_pedal_vl2_rr1.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "73515fac4850ffed2c0fa404da2359f5e10b2b7b4f3a6cbc48b0848f65052820"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 0.5 s, faded out over 150 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Hats/Hat Open Acoustic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Virtuosity Drums: hh/mid_hh_open_vl3_rr1.flac",
+          "author": "Versilian Studios",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_open_vl3_rr1.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "58302f8eabd04050ddb00d0f6ba907edb7996a7d36ce437e98494eec3ae9da69"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 1.6 s, faded out over 400 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Hats/Hat Closed Tight.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v3_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hi-Hat%20Cymbal/HiHat_HitC_v3_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "b65ca06ea4f8b5209fc8d98912094be1212911f21e01bd949cc9960db049d37c"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Hats/Hat Closed Electronic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "FreePats Synthesizer Percussion (2022-07-18), made with the Yoshimi and Geonkick synthesizers: ClosedHiHat01-01.flac",
+          "author": "Roberto (FreePats)",
+          "url": "https://github.com/freepats/synthesizer-percussion/blob/39bbabce8e0e10aa259d5d94fca329f668733185/samples/ClosedHiHat01-01.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "README.md at that commit: \"Published under the terms of Creative Commons CC0 public domain dedication\"",
+          "sha256": "70740a828aa0bdd651a9a8a99fe41d65b35a8a3590bfefedb0623776eafda15b"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Hats/Hat Open Electronic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "FreePats Synthesizer Percussion (2022-07-18), made with the Yoshimi and Geonkick synthesizers: OpenHiHat02-01.flac",
+          "author": "Roberto (FreePats)",
+          "url": "https://github.com/freepats/synthesizer-percussion/blob/39bbabce8e0e10aa259d5d94fca329f668733185/samples/OpenHiHat02-01.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "README.md at that commit: \"Published under the terms of Creative Commons CC0 public domain dedication\"",
+          "sha256": "7cd92a28918176e6e54b87ade295e9a9c5f2d0987129a43baf73c3f1fe1a5438"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Hats/Hat Closed Analog.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (hat: six square waves (205.3, 304.4, 369.6, 522.7, 540 and 800 Hz), band-passed at 7.1 kHz, decay 25 ms), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Hats/Hat Open Analog.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (hat: the same six square waves, decay 250 ms), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Cymbals/Crash.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Virtuosity Drums: crash/mid_crash_crash_vl2_rr1.flac",
+          "author": "Versilian Studios",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/crash/mid_crash_crash_vl2_rr1.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "6e51e885a3f0fa3bfbad1349526e3781aefae4063f36691185bc176fad3ce588"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 4 s, faded out over 800 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Cymbals/Ride.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Virtuosity Drums: ride/mid_ride_ride_vl2_rr1.flac",
+          "author": "Versilian Studios",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/ride/mid_ride_ride_vl2_rr1.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "b1b52f2f7143917cb9f38dbcab37da645d4109d0795d8cd8563a6a957ab30727"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 3 s, faded out over 600 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Cymbals/Ride Bell.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Virtuosity Drums: ride/mid_ride_bell_vl2_rr1.flac",
+          "author": "Versilian Studios",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/ride/mid_ride_bell_vl2_rr1.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "0adb696d626516bb85a9da6e136dd22084c5e78fb0db9f29b84ca772322c1f7a"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 3 s, faded out over 600 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Cymbals/Crash Electronic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "FreePats Synthesizer Percussion (2022-07-18), made with the Yoshimi and Geonkick synthesizers: Cymbal02.flac",
+          "author": "Roberto (FreePats)",
+          "url": "https://github.com/freepats/synthesizer-percussion/blob/39bbabce8e0e10aa259d5d94fca329f668733185/samples/Cymbal02.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "README.md at that commit: \"Published under the terms of Creative Commons CC0 public domain dedication\"",
+          "sha256": "f5f6d7c31d8fe699c7b176bdbde5f4b0af7a008ab5024887c7abb9bf73e3ccb8"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 4 s, faded out over 800 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Toms/Tom High.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Membranophones/Struck Membranophones/Tom 1/Stick/TomH_HitS_v3_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v3_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "40bd5cf904ed20eb8e7bba6298e356b66cedd313b4f459c5a5884c054bf447a4"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 1.6 s, faded out over 500 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Toms/Tom Low.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Membranophones/Struck Membranophones/Tom 2/Stick/TomL_HitS_v3_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Tom%202/Stick/TomL_HitS_v3_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "bdc312f2f4c799cb43319a7aa0e664bf6194c6f8b14151051b375968df55eab4"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 1.6 s, faded out over 500 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Toms/Tom Floor.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Big Rusty Drums: tom_18/center/cl/t18_vl6_rr1.flac",
+          "author": "Karoryfer Samples",
+          "url": "https://github.com/sfzinstruments/karoryfer.big-rusty-drums/blob/f07ce00df34a46b6b08375be56fe116cf15782bc/Samples/tom_18/center/cl/t18_vl6_rr1.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code",
+          "sha256": "453fb9278102b8064c9b821857f81fc661b95c5804645da9e25f12c86cb1166c"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Toms/Tom Electronic.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "FreePats Synthesizer Percussion (2022-07-18), made with the Yoshimi and Geonkick synthesizers: MidTom02-01.flac",
+          "author": "Roberto (FreePats)",
+          "url": "https://github.com/freepats/synthesizer-percussion/blob/39bbabce8e0e10aa259d5d94fca329f668733185/samples/MidTom02-01.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "README.md at that commit: \"Published under the terms of Creative Commons CC0 public domain dedication\"",
+          "sha256": "a94ad384936581c3d12ff45d5c4a167c7ceab0c926577cc9b6bbd3ab8ea021d9"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Percussion/Shaker.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerDouble_Down_rr1.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerDouble_Down_rr1.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "0df7c271e1dba4de7304f7df81886390dd9ae698bfdd6df570026af4f2223574"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Percussion/Tambourine.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Idiophones/Struck Idiophones/Tambourine 1/Tamb1_Hit_v2_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tambourine%201/Tamb1_Hit_v2_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "885ebf1d70f8e888f576682e4e4112b92b69649162f392c83b3379c91a09cf41"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Percussion/Tambourine Shake.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Idiophones/Struck Idiophones/Tambourine 1/Tamb1_Shake_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tambourine%201/Tamb1_Shake_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "5876b66d1e8009b3ee884ff3bf52fbc420b44f9ddffffe830b4074d3dfc09924"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Percussion/Conga.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Membranophones/Struck Membranophones/Conga/Conga_HitN_v2_rr1_Sum.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Conga/Conga_HitN_v2_rr1_Sum.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "13d322c0e7a830cdbcbdc5a6e05566dfe3f5a073b7b82a3262d3f6fc10f96764"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Percussion/Conga Low.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Membranophones/Struck Membranophones/Conga/Tumba_HitN_v2_rr1_Sum.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Conga/Tumba_HitN_v2_rr1_Sum.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "c61f662c8af0dc95fcfca81d8a319b71bafd6e4c59a168dceec799fbb7963a47"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Percussion/Bongo High.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v2_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bongos/BongoH_Hit1_v2_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "dd9b6239a151702966a995937f74ac022c9bb950c967277fbd16beaced0c9e1a"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Percussion/Bongo Low.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v2_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bongos/BongoL_Hit1_v2_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "0ee22ac30a27a1e91fbba58e0c4b36b28ea6c508dad5f11b10bdb9db07f2b443"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Percussion/Cowbell.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Idiophones/Struck Idiophones/Cowbells/Cowbell1_Hit_v3_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Cowbells/Cowbell1_Hit_v3_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "36e9243e18b299bde0ebbb108c65846ddb5d46b35a61655fa18a0327e3390e87"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Percussion/Cowbell Analog.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (cowbell: square waves at 540 and 800 Hz, band-passed at 2.64 kHz), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Drums/Percussion/Claves.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Idiophones/Struck Idiophones/Claves/Claves1_Hit_v2_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Claves/Claves1_Hit_v2_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "bcabe27330761309eb4b4f6207e6e3b4be59815df86449ac05bfb9b81f19efc9"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "808s/808 Long F.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (808: 110 Hz falling to F1 (43.65 Hz), decay 900 ms, drive 2.2), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 400 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "808s/808 Short G.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (808: 120 Hz falling to G1 (49 Hz), decay 300 ms, drive 2.5), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 150 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "808s/808 Punchy C.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (808: 180 Hz falling to C2 (65.41 Hz), decay 500 ms, drive 3), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 300 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "808s/Sub Bass C.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (sub bass: a sine at C2 (65.41 Hz)), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 300 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Riser 4 Bars 128 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (riser: stereo noise, low-pass rising from 150 Hz to 10 kHz, and a sine from 200 to 1600 Hz, over 4 bars at 128 BPM), dedicated to the public domain",
+      "processing": "its exact length kept, faded out over 5 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Downlifter 2 Bars 128 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (downlifter: stereo noise, low-pass falling from 9 kHz to 120 Hz, and a sine from 1200 to 80 Hz, over 2 bars at 128 BPM), dedicated to the public domain",
+      "processing": "its exact length kept, faded out over 50 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Sweep Up 1 Bar 128 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (sweep: stereo noise through a resonant low-pass rising from 300 Hz to 12 kHz over 1 bar at 128 BPM), dedicated to the public domain",
+      "processing": "its exact length kept, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Sweep Down 1 Bar 128 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (sweep: stereo noise through a resonant low-pass falling from 12 kHz to 300 Hz over 1 bar at 128 BPM), dedicated to the public domain",
+      "processing": "its exact length kept, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Impact Boom.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (impact: a sine falling from 80 to 30 Hz, a noise burst and a stereo tail, decay 800 ms), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 500 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Impact Hit.flac",
+      "licence": "CC0-1.0",
+      "made": "synthesized by phazite_soundkit (impact: a sine falling from 100 to 45 Hz, a brighter noise burst and a stereo tail, decay 250 ms), dedicated to the public domain",
+      "processing": "trimmed from its first sound to -60 dB, faded out over 200 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Whoosh.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Sonic Pi's samples, from freesound.org: ambi_swoosh.flac (https://freesound.org/people/Halgrimm/sounds/169867/)",
+          "author": "see the Freesound page in the title",
+          "url": "https://github.com/sonic-pi-net/sonic-pi/blob/f4c680462539dfc80053caba65dff8200b93e7f9/etc/samples/ambi_swoosh.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE.md at that commit: \"All the bundled samples are individually licensed under a CC0 1.0 Universal Public Domain Dedication\"; etc/samples/README.md names each sample's Freesound page",
+          "sha256": "1ba01f85418936d32b37cbdb598043e8a62e4c63818c16a349ed95821ddf8061"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Whoosh Dark.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Sonic Pi's samples, from freesound.org: ambi_dark_woosh.flac (https://freesound.org/people/EcoDTR/sounds/27281/)",
+          "author": "see the Freesound page in the title",
+          "url": "https://github.com/sonic-pi-net/sonic-pi/blob/f4c680462539dfc80053caba65dff8200b93e7f9/etc/samples/ambi_dark_woosh.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE.md at that commit: \"All the bundled samples are individually licensed under a CC0 1.0 Universal Public Domain Dedication\"; etc/samples/README.md names each sample's Freesound page",
+          "sha256": "dba2cba2a142d5d3866aefaa85b975208e1436cdd7101dac9befd4036c2be00e"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Downlifter Lunar.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Sonic Pi's samples, from freesound.org: ambi_lunar_land.flac (https://freesound.org/people/maqsim/sounds/172157/, \"Lunar Downlifter FX 4\")",
+          "author": "see the Freesound page in the title",
+          "url": "https://github.com/sonic-pi-net/sonic-pi/blob/f4c680462539dfc80053caba65dff8200b93e7f9/etc/samples/ambi_lunar_land.flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE.md at that commit: \"All the bundled samples are individually licensed under a CC0 1.0 Universal Public Domain Dedication\"; etc/samples/README.md names each sample's Freesound page",
+          "sha256": "020f82384e5d55807b557901d585aff9d385ce67d9f0a66464dea0952638ce01"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Cymbal Swell.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_cresc_4s.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Suspended%20Cymbal%201/susCymb1_cresc_4s.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "bb3b6b251b0b9dac23b7b0fae47aab84a70abbefa4a110b05c9f4ad733e70741"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 6 s, faded out over 1500 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Gong.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Idiophones/Struck Idiophones/Gong 1/gong_f.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Gong%201/gong_f.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "348226a7aceea02fa2d508f329283ea0329d76d21afa6f5a56af95bfaa037048"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 7 s, faded out over 2000 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "FX/Impact Concert Drum.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_hit_ff.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bass%20Drum%202/bassdrum_hit_ff.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "d0ce17649553655127ee27dff312ece64c9ac698a9b66a470c3b51f244892c7b"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 4 s, faded out over 1000 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Footstep Wood.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Impact Sounds (https://kenney.nl/assets/impact-sounds): footstep_wood_000.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip#Audio/footstep_wood_000.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Footstep Concrete.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Impact Sounds (https://kenney.nl/assets/impact-sounds): footstep_concrete_000.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip#Audio/footstep_concrete_000.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "d7267e183067757c92c169de2a379abea592cfca6b39bb2e8feea15221ad79fe"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Footstep Grass.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Impact Sounds (https://kenney.nl/assets/impact-sounds): footstep_grass_000.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip#Audio/footstep_grass_000.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "9d49497777405d78d7cf7f2888e28277f3a23192300cfd1d79d54876b20f479f"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Glass Clink.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Impact Sounds (https://kenney.nl/assets/impact-sounds): impactGlass_light_000.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip#Audio/impactGlass_light_000.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "d750cf88097d0c3e69920e6e14496e1444e1a9da01aa4cca8f5ec8cb44c57b4f"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Metal Hit.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Impact Sounds (https://kenney.nl/assets/impact-sounds): impactMetal_light_000.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip#Audio/impactMetal_light_000.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "33b5e6e37c6e9d54e07bf5a89b12c76e879f40c1ea83cdd82714df1d6f9fec6d"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Wood Knock.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Impact Sounds (https://kenney.nl/assets/impact-sounds): impactWood_light_000.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip#Audio/impactWood_light_000.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Tin Hit.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Impact Sounds (https://kenney.nl/assets/impact-sounds): impactTin_medium_000.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip#Audio/impactTin_medium_000.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "f4bbee66ca191ec744b84fc07ac9ed2a6fda955d51cfed8360f12b62815d3cbd"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Page Turn.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "RPG Audio (https://kenney.nl/assets/rpg-audio): bookFlip1.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip#Audio/bookFlip1.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Book Close.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "RPG Audio (https://kenney.nl/assets/rpg-audio): bookClose.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip#Audio/bookClose.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "81e976532565f4372abd14e83d2684195fa548d0a28d345de221e56052454f32"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Cloth Rustle.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "RPG Audio (https://kenney.nl/assets/rpg-audio): cloth1.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip#Audio/cloth1.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Door Close.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "RPG Audio (https://kenney.nl/assets/rpg-audio): doorClose_1.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip#Audio/doorClose_1.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "834d29c60a8a8bfb50b158cdb6b7dfa8f02812a408a1ee9703d038dfab0b1aeb"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Coins.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "RPG Audio (https://kenney.nl/assets/rpg-audio): handleCoins.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip#Audio/handleCoins.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "8a91f969e932df709df80ee124d86a51389eed9b67f22e5e716bc2bbf60d8dab"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Metal Latch.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "RPG Audio (https://kenney.nl/assets/rpg-audio): metalLatch.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip#Audio/metalLatch.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Wood Creak.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "RPG Audio (https://kenney.nl/assets/rpg-audio): creak1.ogg",
+          "author": "Kenney (kenney.nl)",
+          "url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip#Audio/creak1.ogg",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "License.txt in the download: \"License (Creative Commons Zero, CC0)\"",
+          "sha256": "8a346186fd297254248cab8e8117060a52a5cf2a84f603153a762108550ea95e"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, faded out over 10 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Foley/Anvil.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "Versilian Community Sample Library (VCSL): Idiophones/Struck Idiophones/Anvil/Anvil_Hit2_v2_rr1_Mid.wav",
+          "author": "Versilian Studios and contributors",
+          "url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Anvil/Anvil_Hit2_v2_rr1_Mid.wav",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "LICENSE at that commit: the CC0 1.0 Universal legal code; README.md: \"This collection is under a Creative Commons 0 license\"",
+          "sha256": "5a104c9e7309b0b99f0f56d023959a0fc21000d886bcaee8f85b8dccf3b9afd1"
+        }
+      ],
+      "processing": "trimmed from its first sound to -60 dB, shortened to 3 s, faded out over 500 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Loops/Breakbeat 108 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "taken from the CC0 source below",
+      "sources": [
+        {
+          "title": "108 bpm breakbeat (https://archive.org/details/108_bpm_breakbeat_to_use; Sample00 is the whole loop), drums recorded by EatMe with two overhead microphones: Sample00_108_BPM_EatMe_drums_-_2016_-_samples_-_music_by_EatMe_-_www.eatme.pro_-_drums_recorded_with_2_overhead_microphones_through_mix_amp_on_minidisc_to_computer..flac",
+          "author": "EatMe (eatme.pro)",
+          "url": "https://archive.org/download/108_bpm_breakbeat_to_use/Sample00_108_BPM_EatMe_drums_-_2016_-_samples_-_music_by_EatMe_-_www.eatme.pro_-_drums_recorded_with_2_overhead_microphones_through_mix_amp_on_minidisc_to_computer..flac",
+          "licence": "CC0-1.0",
+          "licenceEvidence": "The Internet Archive item's licence: https://creativecommons.org/publicdomain/zero/1.0/; its description: \"Public domain - free to use\"",
+          "sha256": "afd73dbfd96bac7a5ab424fca5a34e7b92f37d6b7bcf48f005adf90f6278dd7f"
+        }
+      ],
+      "processing": "cut to exactly 4 bars at 108 BPM, faded out over 3 ms, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Loops/House 124 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "played by phazite_soundkit from the sounds above, to a pattern written for Phazite (16th notes; X accent, x hit, o ghost, r two 32nds): Drums/Kicks/Kick Punchy.flac: X...X...X...X...X...X...X...X...; Drums/Claps/Clap Analog.flac: ....X.......X.......X.......X...; Drums/Hats/Hat Closed Electronic.flac: x.o.x.o.x.o.x.o.x.o.x.o.x.o.x.o.; Drums/Hats/Hat Open Electronic.flac: ..X...X...X...X...X...X...X...X.; Drums/Percussion/Shaker.flac: oooooooooooooooooooooooooooooooo",
+      "processing": "2 bars at 124 BPM, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Loops/Boom Bap 90 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "played by phazite_soundkit from the sounds above, to a pattern written for Phazite (16th notes; X accent, x hit, o ghost, r two 32nds): Drums/Kicks/Kick Acoustic.flac: X......x..X.....X.....x...X..x..; Drums/Snares/Snare Tight.flac: ....X.......X.......X.......X.o.; Drums/Hats/Hat Closed Acoustic.flac: X.x.X.x.X.x.X.x.X.x.X.x.X.x.X.xx",
+      "processing": "2 bars at 90 BPM, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Loops/Trap 140 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "played by phazite_soundkit from the sounds above, to a pattern written for Phazite (16th notes; X accent, x hit, o ghost, r two 32nds): 808s/808 Short G.flac: X.........X.....X......X..X.....; Drums/Kicks/Kick Tight.flac: X.........X.....X......X..X.....; Drums/Claps/Clap Electronic.flac: ........X...............X.......; Drums/Hats/Hat Closed Analog.flac: x.x.x.x.x.x.x.x.x.x.x.x.x.x.rrrr; Drums/Hats/Hat Open Analog.flac: ..............X.................",
+      "processing": "2 bars at 140 BPM, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Loops/Pop Rock 120 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "played by phazite_soundkit from the sounds above, to a pattern written for Phazite (16th notes; X accent, x hit, o ghost, r two 32nds): Drums/Kicks/Kick Acoustic Big.flac: X.....x.X.......X.....x.X.x.....; Drums/Snares/Snare Acoustic.flac: ....X.......X.......X.......X...; Drums/Hats/Hat Closed Acoustic.flac: X.x.X.x.X.x.X.x.X.x.X.x.X.x.X.x.; Drums/Percussion/Tambourine.flac: ....x.......x.......x.......x...",
+      "processing": "2 bars at 120 BPM, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Loops/Drum and Bass 174 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "played by phazite_soundkit from the sounds above, to a pattern written for Phazite (16th notes; X accent, x hit, o ghost, r two 32nds): Drums/Kicks/Kick Electronic.flac: X.........X.....X.........X.....; Drums/Snares/Snare Crack.flac: ....X.......X..o....X.......X...; Drums/Hats/Hat Closed Electronic.flac: ..x...x...x...x...x...x...x...x.; Drums/Percussion/Shaker.flac: xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo",
+      "processing": "2 bars at 174 BPM, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    },
+    {
+      "file": "Loops/Percussion 110 BPM.flac",
+      "licence": "CC0-1.0",
+      "made": "played by phazite_soundkit from the sounds above, to a pattern written for Phazite (16th notes; X accent, x hit, o ghost, r two 32nds): Drums/Percussion/Conga Low.flac: X.......X..x....X.......X..x....; Drums/Percussion/Conga.flac: ..x...x...x.x.....x...x...x.x.x.; Drums/Percussion/Bongo High.flac: ....x..x....x..x....x..x....x..x; Drums/Percussion/Shaker.flac: xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo; Drums/Percussion/Claves.flac: X..X..X.........X.....X...X.....",
+      "processing": "2 bars at 110 BPM, peak-normalized to -1 dBFS, and written as 44.1 kHz 16-bit FLAC with triangular dither by phazite_soundkit"
+    }
+  ]
+}

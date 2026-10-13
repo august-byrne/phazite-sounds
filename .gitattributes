@@ -1,0 +1,15 @@
+# Normalise line endings in the repository (LF) and check out with each platform's default. The text files that go
+# in the pack's zip (README.txt, LICENSE.txt, sources.json) keep LF everywhere, so the same pack makes the same zip
+# on every computer; shell scripts and hooks keep LF too.
+* text=auto
+*.txt text eol=lf
+*.json text eol=lf
+*.sh  text eol=lf
+# Git hooks are shell scripts without an extension (git runs them with sh, on Windows too).
+.githooks/* text eol=lf
+
+# Sounds and archives: never convert line endings.
+*.flac binary
+*.ogg binary
+*.wav binary
+*.zip binary

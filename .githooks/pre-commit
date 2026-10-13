@@ -1,0 +1,110 @@
+#!/bin/sh
+# SPDX-License-Identifier: CC0-1.0
+# The pre-commit checks of phazite-sounds, in this order:
+#  1. The commit's author and committer email must be a GitHub noreply address, because pushing a
+#     commit publishes its email for good.
+#  2. No staged file is larger than 5 MiB.
+#  3. No trailing whitespace or leftover conflict markers in the staged changes.
+#  4. gitleaks finds no API keys, tokens, private keys or other secrets in the staged changes. It can't
+#     see inside binary files (UTF-16 text counts as binary) or commit messages.
+# To skip check 1 or 2 on purpose for one commit, add -c phazite.allowPublicEmail=true or
+# -c phazite.allowLargeFiles=true after "git".
+# Turned on per clone with "git config core.hooksPath .githooks"; git merge and git pull run it through
+# pre-merge-commit. Commits made by rebase, cherry-pick, revert and am skip it, as does
+# "git commit --no-verify"; pre-push checks emails and secrets again before they leave this computer.
+
+stop() {
+    printf '\npre-commit: %s\n\n' "$*" >&2
+    exit 1
+}
+
+allowed() {
+    [ "$(git config --type=bool "phazite.$1")" = true ]
+}
+
+# 1. Commit identity
+if ! allowed allowPublicEmail; then
+    for who in author:GIT_AUTHOR_IDENT committer:GIT_COMMITTER_IDENT; do
+        email=$(git var "${who#*:}" | sed -n 's/.*<\(.*\)>.*/\1/p')
+        who=${who%%:*}
+        hint=
+        [ "$who" = author ] && hint="
+If you are amending or reusing someone else's commit, add --reset-author to make yourself its author."
+        case "$email" in
+            *@users.noreply.github.com) ;;
+            '') stop "git has no $who email for this commit. Use your GitHub noreply address (GitHub: Settings > Emails):
+    git config user.email \"<id>+<username>@users.noreply.github.com\"" ;;
+            *) stop "this commit would publish the $who email address \"$email\".
+Use your GitHub noreply address instead (GitHub: Settings > Emails):
+    git config user.email \"<id>+<username>@users.noreply.github.com\"$hint
+To publish this address on purpose, for this commit only:
+    git -c phazite.allowPublicEmail=true commit ..." ;;
+        esac
+    done
+fi
+
+# What the staged changes are compared with: the current commit, or nothing for the first commit.
+if git rev-parse --verify --quiet HEAD >/dev/null; then
+    against=HEAD
+else
+    against=$(git hash-object -t tree /dev/null)
+fi
+
+# 2. Large files
+if ! allowed allowLargeFiles; then
+    big=$(git -c core.quotepath=off diff-index --cached --no-renames --diff-filter=AM "$against" -- |
+        awk -F '\t' '{ split($1, m, " "); if (m[2] != "160000") print m[4] " " $2 }' |
+        git cat-file --batch-check='%(objectsize) %(rest)' |
+        awk '{ size = $1; sub(/^[0-9]+ /, ""); if (size > 5242880) printf "    %s (%.1f MiB)\n", $0, size / 1048576 }')
+    [ -z "$big" ] || stop "these staged files are larger than 5 MiB:
+$big
+The history keeps every version of a file for good, so the pack's sounds stay small.
+If one really belongs in the repository, commit it with:
+    git -c phazite.allowLargeFiles=true commit ..."
+fi
+
+# 3. Whitespace errors and leftover conflict markers
+whitespace=$(git -c color.ui=never -c core.quotepath=off diff-index --check --cached "$against" -- 2>&1) ||
+    stop "the staged changes have trailing whitespace or a leftover conflict marker:
+$whitespace
+Fix those lines, stage the files again and commit."
+
+# 4. Secrets in the staged changes
+gitleaks=$(command -v gitleaks)
+if [ -z "$gitleaks" ]; then
+    case "$(uname -s)" in
+        MINGW* | MSYS* | CYGWIN*)
+            # winget's links folders, for programs started before gitleaks was installed (old PATH)
+            for dir in "${ProgramW6432:-$PROGRAMFILES}/WinGet/Links" "$LOCALAPPDATA/Microsoft/WinGet/Links"; do
+                candidate="$(cygpath -u "$dir")/gitleaks.exe"
+                if [ -x "$candidate" ]; then
+                    gitleaks=$candidate
+                    break
+                fi
+            done ;;
+    esac
+fi
+[ -n "$gitleaks" ] || stop "gitleaks is not installed, so the staged changes can't be checked for secrets.
+Install gitleaks 8.19 or newer (see \"Committing\" in README.md)."
+
+# gitleaks reads "git diff" and finds nothing in it when git colours it (color.ui = always), so colour
+# is turned off for it; appended to GIT_CONFIG_PARAMETERS, this beats every config file and "git -c".
+# gitleaks exits with 3 (--exit-code) when it finds something and with another code when it fails.
+# Its output comes after our message because VS Code shows only the first line of a failed commit.
+report=$(GIT_CONFIG_PARAMETERS="${GIT_CONFIG_PARAMETERS:+$GIT_CONFIG_PARAMETERS }'color.ui=never' 'color.diff=never'" \
+    NO_COLOR=1 "$gitleaks" git --pre-commit --staged --redact --no-banner --no-color --verbose --exit-code 3 2>&1)
+case $? in
+    0) ;;
+    3) stop "gitleaks found a possible secret in the staged changes (redacted below).
+Take the secret out of the staged changes. If it was a real key or token, revoke it and create a new one.
+For a false positive you have checked, add the comment gitleaks:allow to that line, or, in a file that
+can't hold comments, add its Fingerprint line to .gitleaksignore.
+
+$report" ;;
+    *) # The "git" command arrived in gitleaks 8.19; Ubuntu's own package (8.16) doesn't report its version.
+       "$gitleaks" git --help >/dev/null 2>&1 || stop "gitleaks is too old: this check needs 8.19 or newer
+(see \"Committing\" in README.md)."
+       stop "gitleaks failed, so the staged changes were not checked for secrets:
+
+$report" ;;
+esac

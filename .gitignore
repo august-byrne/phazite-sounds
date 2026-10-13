@@ -1,0 +1,2 @@
+# The zips made for releases go to GitHub Releases, not into the repository (README.md, "Releasing a version").
+*.zip

@@ -1,0 +1,40 @@
+# SPDX-License-Identifier: CC0-1.0
+# Checks every push and pull request: no secrets (gitleaks, over the whole history), no trailing whitespace or
+# conflict markers, and a pack in which every sound is listed in pack/sources.json as CC0 with its sources
+# (tools/check-pack.ps1). Actions are pinned to full commit hashes, so a moved tag can't change what runs.
+name: Check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency: # a newer push to the same branch cancels the run that is still going
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # gitleaks scans the whole history
+
+      - name: Secrets (gitleaks 8.30.1, whole history)
+        run: |
+          curl -fsSLo "$RUNNER_TEMP/gitleaks.tar.gz" https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz
+          echo "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  $RUNNER_TEMP/gitleaks.tar.gz" | sha256sum --check
+          tar -xzf "$RUNNER_TEMP/gitleaks.tar.gz" -C "$RUNNER_TEMP" gitleaks
+          "$RUNNER_TEMP/gitleaks" git --redact --no-banner --no-color --verbose
+
+      - name: Whitespace and conflict markers
+        run: git diff --check "$(git hash-object -t tree /dev/null)" HEAD
+
+      - name: The pack (every sound CC0, listed with its sources)
+        shell: pwsh
+        run: ./tools/check-pack.ps1
